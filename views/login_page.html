@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BankLimbah | Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
     <nav class="topNavbar">
         <div>
-            <h3>ANTON KECAP</h3>
-            <a href="index.html">back</a>
+            <img src="/img/logo.svg" alt="">
         </div>
         <div class="navContent-right">
-            <a class="btn-nav" href="#">Pricing</a>
-            <a class="btn-nav" href="#">Contact</a>
-            <a class="btn-nav" href="#">Login</a>
+            <a class="btn-nav" href="pricing_page.html">Pricing</a>
+            <a class="btn-nav" href="contact_page.html">Contact</a>
+            <a class="btn-nav-auth" href="login_page.html">Login</a>
         </div>
     </nav>
     <div class="header-content">
@@ -23,12 +25,12 @@
     </div>
     <div class="body-content">
         <form id="login-form" action="" method="POST">
-            <input type="text" placeholder="Email or Username">
-            <input type="password" placeholder="Password">
-            <button type="submit">Login</button>
+            <input type="text" placeholder="Email or Username" class="input-log">
+            <input type="password" placeholder="Password" class="input-log">
+            <button type="submit" class="btn-log">Login</button>
         </form>
         <div class="bottom-login">
-            <a href="#">Forgot Password?</a>
+            <a href="#" class="forget-text">Forgot Password?</a>
             <span>By clicking continue, you agree to our 
                 <a href="#">Terms of Service</a>
                 and
