@@ -1,0 +1,159 @@
+/* GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    background: #F4F4F4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, p, span {
+    margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    background: white;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #555;
+}
+
+/* FILTER SECTION */
+.filter-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 45px;
+}
+
+.filter-label {
+    font-size: 16px;
+}
+
+.filter-btn {
+    background: white;
+    border: 2px solid #8BC34A;
+    padding: 8px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filter-btn.active {
+    background: #C9E7B0;
+}
+
+/* PRODUCT CARD */
+.product-card {
+    background: white;
+    margin: 0 45px;
+    margin-top: 5px;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px #0001;
+}
+
+.left {
+    display: flex;
+    gap: 20px;
+}
+
+.product-img {
+    width: 100px;
+    border: 1px solid #8BC34A;
+    border-radius: 6px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* DATE + BADGE ROW */
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    align-items: center;
+}
+
+.date {
+    font-size: 13px;
+}
+
+.badge {
+    background: #7CC66B;
+    padding: 2px 8px;
+    font-size: 11px;
+    border-radius: 4px;
+    color: white;
+}
+
+.title {
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.amount {
+    font-size: 14px;
+    color: #444;
+}
+
+/* RIGHT SIDE */
+.right {
+    border-left: 2px solid #DDD;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sales-label {
+    color: #666;
+    font-size: 14px;
+}
+
+.sales-amount {
+    font-size: 22px;
+    font-weight: bold;
+}
