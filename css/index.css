@@ -99,6 +99,7 @@ body{
     flex-direction: column;
     width: 50%;
     height: 40vh;
+    cursor: pointer;
 }
 
 /* profile */
@@ -112,10 +113,11 @@ body{
     border-radius: 50px;
     margin: 0 45px 0 45px;
     display: none;
+    cursor: pointer; /* i forgot to add this */
 }
 
 /* google icons */
-.material-symbols-outlined {
+#profile .material-symbols-outlined {
     font-size: 40px !important;
     margin-right: -5px;
     display: inline-block;

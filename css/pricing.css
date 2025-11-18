@@ -98,6 +98,7 @@ body{
     flex-direction: column;
     border: 2px black solid;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .produk img {
