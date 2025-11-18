@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
     <nav class="topNavbar">
@@ -17,7 +18,11 @@
         <div class="navContent-right">
             <a class="btn-nav" href="pricing_page.html">Pricing</a>
             <a class="btn-nav" href="contact_page.html">Contact</a>
-            <a class="btn-nav-auth" href="login_page.html">Login</a>
+            <a id="login-btn" class="btn-nav-auth" href="login_page.html">Login</a>
+            <div id="profile">
+                <span class="material-symbols-outlined">account_circle</span>
+                <span class="material-symbols-outlined">stat_minus_1</span>
+            </div>
         </div>
     </nav>
     <div class="top-slider">
@@ -42,5 +47,7 @@
             </div>
         </div>
     </div>
+
+    <script src="../js/index.js"></script>
 </body>
 </html>

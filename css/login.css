@@ -86,6 +86,10 @@ body{
     margin-bottom: 15px;
 }
 
+#login-form input {
+    text-indent: 10px;
+}
+
 .btn-log {
     height: 40px;
     width: 25vw;

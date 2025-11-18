@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
     <nav class="topNavbar">
@@ -25,9 +25,9 @@
     </div>
     <div class="body-content">
         <form id="login-form" action="" method="POST">
-            <input type="text" placeholder="Email or Username" class="input-log">
-            <input type="password" placeholder="Password" class="input-log">
-            <button type="submit" class="btn-log">Login</button>
+            <input id="username" type="text" placeholder="Email or Username" class="input-log">
+            <input id="password" type="password" placeholder="Password" class="input-log">
+            <button id="submit" type="submit" class="btn-log">Login</button>
         </form>
         <div class="bottom-login">
             <a href="#" class="forget-text">Forgot Password?</a>
@@ -38,5 +38,6 @@
             </span>
         </div>
     </div>
+    <script src="../js/login_page.js"></script>
 </body>
 </html>
